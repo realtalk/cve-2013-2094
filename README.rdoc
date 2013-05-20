@@ -1,0 +1,18 @@
+= CVE-2013-2094 code for
+http://timetobleed.com/a-closer-look-at-a-recent-privilege-escalation-bug-in-linux-cve-2013-2094/
+
+== How to build
+
+You need to build the C file of your choice like this:
+
+gcc -O2 file-name.c
+
+-O2 is required due to how the exploit actually works (see the blog post for
+more information).
+
+== Why
+
+I thought the original exploit was cool and really interesting, but hard to
+understand especially for beginners so I decided to rewrite it a bit, add lots
+of comments, and write a blog post about it.
+
